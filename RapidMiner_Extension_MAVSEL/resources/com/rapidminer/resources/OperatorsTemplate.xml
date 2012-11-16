@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<operators name="template" version="5.0"
+	docbundle="com/rapidminer/resources/i18n/OperatorsDocTemplate">
+	<group key="mavsel">
+		<icon>import.png</icon>
+		<operator>
+			<key>MavselInitConnection</key>
+			<class>com.mavsel.MavselInitConnection</class>
+			<replaces>MavselInitConnection</replaces>
+		</operator>
+		<operator>
+			<key>ExtractCoursesMavsel</key>
+			<class>com.mavsel.ExtractCoursesMavsel</class>
+			<replaces>ExtractCoursesMavsel</replaces>
+		</operator>
+		<operator>
+			<key>ExtractForumsMavsel</key>
+			<class>com.mavsel.ExtractForumsMavsel</class>
+			<replaces>ExtractForumsMavsel</replaces>
+		</operator>
+		<operator>
+			<key>ExtractDiscussionsMavsel</key>
+			<class>com.mavsel.ExtractDiscussionsMavsel</class>
+			<replaces>ExtractDiscussionsMavsel</replaces>
+		</operator>
+		<operator>
+			<key>ExtractPostsMavsel</key>
+			<class>com.mavsel.ExtractPostsMavsel</class>
+			<replaces>ExtractPostsMavsel</replaces>
+		</operator>
+		<operator>
+			<key>ExtractParticipantsMavsel</key>
+			<class>com.mavsel.ExtractParticipantsMavsel</class>
+			<replaces>ExtractParticipantsMavsel</replaces>
+		</operator>
+	</group>
+</operators>
