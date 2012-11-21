@@ -1,4 +1,4 @@
-package com.rapidminer;
+package com.mavsel;
 
 
 import java.util.List;
@@ -7,6 +7,11 @@ import com.rapidminer.operator.ResultObjectAdapter;
 import com.uah.items.Course;
 import com.uah.items.LMS;
 
+/**
+ * 
+ * @author Pablo Sicilia
+ * @version Mavsel Workbench 1.0 15-8-2012
+ */
 public class MavselConnectionIOObject  extends ResultObjectAdapter{
 
 	private LMS lms;

@@ -1,7 +1,7 @@
-<project name="RapidMiner_Plugin_Template_Vega">
-	<description>Build file for the RapidMiner Template extension</description>
+<project name="RapidMiner_Extension_MAVSEL">
+	<description>Build file for the RapidMiner MAVSEL extension</description>
 
-	<property name="rm.dir" location="C:\Users\Sergio\workspace\RapidMiner_Vega" />
+	<property name="rm.dir" location="C:\Users\ie\workspace\RapidMiner_Vega" />
 
 	<property name="build.build" location="build" />
 	<property name="build.resources" location="resources" />
@@ -17,7 +17,9 @@
 	<property name="extension.vendor" value="rapid-i" />
 	<property name="extension.admin" value="Juan Pablo Sicilia" />
 	<property name="extension.url" value="www.rapid-i.com" />
-
+	<property name="extension.version" value="1" />
+	<property name="extension.revision" value="1" />
+	<property name="extension.update" value="0" />
 
 	<property name="extension.needsVersion" value="5.0" />
 	<property name="extension.dependencies" value="" />

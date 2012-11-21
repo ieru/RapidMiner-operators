@@ -1,4 +1,4 @@
-package com.rapidminer;
+package com.mavsel;
 
 
 import java.sql.Statement;
@@ -7,7 +7,7 @@ import java.sql.Connection;
 /**
  * 
  * @author Pablo Sicilia
- * 
+ * @version Mavsel Workbench 1.0 15-8-2012
  */
 public class MavselConnection {
 	public final static String SCHEMA_NAME = "RapidMinerMavelTemp";

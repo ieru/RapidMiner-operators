@@ -1,47 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src" />
-	<classpathentry kind="con"
-		path="org.eclipse.jdt.launching.JRE_CONTAINER" />
-	<classpathentry combineaccessrules="false" kind="src"
-		path="/RapidMiner_Vega" />
-	<classpathentry kind="lib"
-		path="C:/Users/ie/Documents/MAVSEL/workbench/RapidMiner_Extension_Template/lib/collections-generic-4.01.jar" />
-	<classpathentry kind="lib"
-		path="C:/Users/ie/Documents/MAVSEL/workbench/RapidMiner_Extension_Template/lib/colt-1.2.0.jar" />
-	<classpathentry kind="lib"
-		path="C:/Users/ie/Documents/MAVSEL/workbench/RapidMiner_Extension_Template/lib/concurrent-1.3.4.jar" />
-	<classpathentry kind="lib"
-		path="C:/Users/ie/Documents/MAVSEL/workbench/RapidMiner_Extension_Template/lib/j3d-core-1.3.1.jar" />
-	<classpathentry kind="lib"
-		path="C:/Users/ie/Documents/MAVSEL/workbench/RapidMiner_Extension_Template/lib/jung-3d-2.0.1.jar" />
-	<classpathentry kind="lib"
-		path="C:/Users/ie/Documents/MAVSEL/workbench/RapidMiner_Extension_Template/lib/jung-3d-demos-2.0.1.jar" />
-	<classpathentry kind="lib"
-		path="C:/Users/ie/Documents/MAVSEL/workbench/RapidMiner_Extension_Template/lib/jung-algorithms-2.0.1.jar" />
-	<classpathentry kind="lib"
-		path="C:/Users/ie/Documents/MAVSEL/workbench/RapidMiner_Extension_Template/lib/jung-api-2.0.1.jar" />
-	<classpathentry kind="lib"
-		path="C:/Users/ie/Documents/MAVSEL/workbench/RapidMiner_Extension_Template/lib/jung-graph-impl-2.0.1.jar" />
-	<classpathentry kind="lib"
-		path="C:/Users/ie/Documents/MAVSEL/workbench/RapidMiner_Extension_Template/lib/jung-io-2.0.1.jar" />
-	<classpathentry kind="lib"
-		path="C:/Users/ie/Documents/MAVSEL/workbench/RapidMiner_Extension_Template/lib/jung-jai-2.0.1.jar" />
-	<classpathentry kind="lib"
-		path="C:/Users/ie/Documents/MAVSEL/workbench/RapidMiner_Extension_Template/lib/jung-jai-samples-2.0.1.jar" />
-	<classpathentry kind="lib"
-		path="C:/Users/ie/Documents/MAVSEL/workbench/RapidMiner_Extension_Template/lib/jung-samples-2.0.1.jar" />
-	<classpathentry kind="lib"
-		path="C:/Users/ie/Documents/MAVSEL/workbench/RapidMiner_Extension_Template/lib/jung-visualization-2.0.1.jar" />
-	<classpathentry kind="lib"
-		path="C:/Users/ie/Documents/MAVSEL/workbench/RapidMiner_Extension_Template/lib/MAVSELtool.jar" />
-	<classpathentry kind="lib"
-		path="C:/Users/ie/Documents/MAVSEL/workbench/RapidMiner_Extension_Template/lib/mysql-connector-java-5.1.13-bin.jar" />
-	<classpathentry kind="lib"
-		path="C:/Users/ie/Documents/MAVSEL/workbench/RapidMiner_Extension_Template/lib/stax-api-1.0.1.jar" />
-	<classpathentry kind="lib"
-		path="C:/Users/ie/Documents/MAVSEL/workbench/RapidMiner_Extension_Template/lib/vecmath-1.3.1.jar" />
-	<classpathentry kind="lib"
-		path="C:/Users/ie/Documents/MAVSEL/workbench/RapidMiner_Extension_Template/lib/wstx-asl-3.2.6.jar" />
-	<classpathentry kind="output" path="build" />
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/RapidMiner_Vega"/>
+	<classpathentry kind="lib" path="C:/Users/ie/Documents/NetBeansProjects/MAVSELtool/MAVSELtool/lib/collections-generic-4.01.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ie/Documents/NetBeansProjects/MAVSELtool/MAVSELtool/lib/colt-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ie/Documents/NetBeansProjects/MAVSELtool/MAVSELtool/lib/concurrent-1.3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ie/Documents/NetBeansProjects/MAVSELtool/MAVSELtool/lib/j3d-core-1.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ie/Documents/NetBeansProjects/MAVSELtool/MAVSELtool/lib/jung-3d-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ie/Documents/NetBeansProjects/MAVSELtool/MAVSELtool/lib/jung-3d-demos-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ie/Documents/NetBeansProjects/MAVSELtool/MAVSELtool/lib/jung-algorithms-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ie/Documents/NetBeansProjects/MAVSELtool/MAVSELtool/lib/jung-api-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ie/Documents/NetBeansProjects/MAVSELtool/MAVSELtool/lib/jung-graph-impl-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ie/Documents/NetBeansProjects/MAVSELtool/MAVSELtool/lib/jung-io-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ie/Documents/NetBeansProjects/MAVSELtool/MAVSELtool/lib/jung-jai-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ie/Documents/NetBeansProjects/MAVSELtool/MAVSELtool/lib/jung-jai-samples-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ie/Documents/NetBeansProjects/MAVSELtool/MAVSELtool/lib/jung-samples-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ie/Documents/NetBeansProjects/MAVSELtool/MAVSELtool/lib/jung-visualization-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ie/Documents/NetBeansProjects/MAVSELtool/MAVSELtool/lib/mysql-connector-java-5.1.13-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ie/Documents/NetBeansProjects/MAVSELtool/MAVSELtool/lib/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ie/Documents/NetBeansProjects/MAVSELtool/MAVSELtool/lib/vecmath-1.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ie/Documents/NetBeansProjects/MAVSELtool/MAVSELtool/lib/wstx-asl-3.2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ie/Documents/NetBeansProjects/MAVSELtool/MAVSELtool/dist/MAVSELtool.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/jdk1.6.0_21/lib/tools.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ie/workspace/MAVSEL-RapidMiner-operators/RapidMiner_Extension_MAVSEL/lib/tools.jar"/>
+	<classpathentry kind="output" path="build"/>
 </classpath>

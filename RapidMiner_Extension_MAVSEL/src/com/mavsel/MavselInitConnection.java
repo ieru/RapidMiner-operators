@@ -1,4 +1,4 @@
-package com.rapidminer;
+package com.mavsel;
 
 
 import java.sql.SQLException;

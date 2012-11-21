@@ -1,4 +1,4 @@
-package com.rapidminer;
+package com.mavsel;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -24,14 +24,15 @@ import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeString;
 import com.rapidminer.tools.Ontology;
 import com.uah.items.LMS;
-import com.uah.items.Post;
+import com.uah.items.Participant;
+
 
 /**
 * This rapidminer operator extracts all posts of a LMS using the MAVSEL library. 
 * @author Pablo Sicilia
 * @version Mavsel Workbench 1.0 20-8-2012
 */
-public class ExtractPostsMavsel extends OperatorChain {
+public class ExtractParticipantsMavsel extends OperatorChain {
 
 	private InputPort setInput = getInputPorts()
 			.createPort("mavsel connection");
@@ -39,9 +40,9 @@ public class ExtractPostsMavsel extends OperatorChain {
 			.createPort("posts");
 	public static final String PARAMETER_LABEL_ID = "IdPost";
 
-	private List<Post> posts;
+	private List<Participant> participants;
 
-	public ExtractPostsMavsel(OperatorDescription description) {
+	public ExtractParticipantsMavsel(OperatorDescription description) {
 		super(description, "Property Extraction");
 
 		getTransformer().addGenerationRule(exampleSetOutput, ExampleSet.class);
@@ -59,13 +60,13 @@ public class ExtractPostsMavsel extends OperatorChain {
 			MavselConnection mavselConnection = new MavselConnection();
 			mavselConnection.createTableDiscussion(lms.getConnection());
 
-			String idPost = getParameterAsString(PARAMETER_LABEL_ID);
-			this.posts = new ArrayList<Post>();
+			String idParticipant = getParameterAsString(PARAMETER_LABEL_ID);
+			this.participants = new ArrayList<Participant>();
 
-			if (idPost == null || idPost.isEmpty()) {
-				posts = lms.getPosts();
+			if (idParticipant == null || idParticipant.isEmpty()) {
+				participants = lms.getParticipants();
 			} else {
-				posts.add(lms.getPost(idPost));
+				participants.add(lms.getParticipant(idParticipant));
 			}
 
 			ExampleSet resultSet = createExampleSet();
@@ -88,9 +89,9 @@ public class ExtractPostsMavsel extends OperatorChain {
 		// ResultSet resultSet = getResultSet();
 		MemoryExampleTable table;
 		try {
-			List<Attribute> attributes = getAttributes(Post.class
+			List<Attribute> attributes = getAttributes(Participant.class
 					.getDeclaredFields());
-			table = createExampleTable(posts, attributes);
+			table = createExampleTable(participants, attributes);
 		} catch (SQLException e) {
 			throw new UserError(this, e, 304, e.getMessage());
 		}
@@ -106,7 +107,7 @@ public class ExtractPostsMavsel extends OperatorChain {
 	 * @throws SQLException
 	 * @throws OperatorException
 	 */
-	private MemoryExampleTable createExampleTable(List<Post> posts,
+	private MemoryExampleTable createExampleTable(List<Participant> posts,
 			List<Attribute> attributes) throws SQLException, OperatorException {
 		
 		Attribute[] attributeArray = attributes
@@ -116,7 +117,7 @@ public class ExtractPostsMavsel extends OperatorChain {
 				DataRowFactory.TYPE_DOUBLE_ARRAY, '.');
 		DataRow dataRow = factory.create(attributeArray.length);
 
-		for (Post post : posts) {
+		for (Participant post : posts) {
 
 			for (Attribute attribute : attributes) {
 				String valueString;
