@@ -14,14 +14,14 @@
 	<property name="extension.name" value="MAVSEL" />
 	<property name="extension.name.long" value="RapidMiner MAVSEL Extension" />
 	<property name="extension.namespace" value="MAVSEL" />
-	<property name="extension.vendor" value="rapid-i" />
+	<property name="extension.vendor" value="UAH" />
 	<property name="extension.admin" value="Juan Pablo Sicilia" />
-	<property name="extension.url" value="www.rapid-i.com" />
+	<property name="extension.url" value="http://www.ieru.org/projects/mavsel/index.html" />
 	<property name="extension.version" value="1" />
 	<property name="extension.revision" value="1" />
 	<property name="extension.update" value="0" />
 
-	<property name="extension.needsVersion" value="5.0" />
+	<property name="extension.needsVersion" value="" />
 	<property name="extension.dependencies" value="" />
 
 	<property name="extension.initClass" value="com.rapidminer.PluginInitTemplate" />
