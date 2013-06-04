@@ -1,4 +1,4 @@
 RapidMiner-operators
 ====================
 
-RapidMiner extension for MAVSEL proyect
+RapidMiner extension used for education and learning
